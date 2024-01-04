@@ -1,0 +1,28 @@
+#jeu{
+    background-color : black;
+    width : 40%;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius : 15px;
+    margin : auto;
+    margin-top : 100px;
+    .rond{
+        background-color : beige;
+        border : 1px solid black;
+        border-radius : 50%;
+        height : 120px;
+        width : 120px;
+        margin : 10px;
+        &__moleWhack{
+            background-color : red;
+        }
+    }
+}
+#point {
+    width : fit-content;
+    margin : auto;
+    font-size : 25px;
+    margin-top : 15px;
+}
+
